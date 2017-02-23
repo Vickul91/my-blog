@@ -1,11 +1,11 @@
 <?php
 
    $config = array(
-   'admin_email' => 'alx-pksiazek@niepodam.pl',
+   'admin_email' => '',
    'db_host' => 'localhost',
    'db_dbname' => 'pksiazek',
    'db_user' => 'pksiazek',
-   'db_password' => 'oijachoo',   
+   'db_password' => '',   
    );
 
 
