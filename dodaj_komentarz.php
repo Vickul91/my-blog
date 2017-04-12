@@ -1,4 +1,4 @@
-<<?php
+<?php
 
     include('config.php');
     include('library/wspolne.php');
@@ -9,7 +9,7 @@
     }
     // SQL Injection: jakas tresc', 1); delete from komentarze; -- 
 	
-	// skrypty zabezpieczaj¹ce:
+	// skrypty zabezpieczajÂ¹ce:
 	//pg_escape_string()
 	//mysql_real_escape_string()
     $autor = pg_escape_string($_POST['autor']);
